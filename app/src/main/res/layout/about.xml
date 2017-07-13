@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="This is an app from which you can know the current velocity of your device,your current location as well as longitude and latitude.Please ensure that you have Internet and GPS connection available.For any query and inconvenience please contact aminul7506@gmail.com"
+            android:padding="@dimen/activity_vertical_margin"
+            android:id="@+id/textView2"
+            android:background="#dd2ae3"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
